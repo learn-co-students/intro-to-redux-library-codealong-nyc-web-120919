@@ -17,7 +17,7 @@ React & Redux application. The reducers are unique because sometimes we have
 reducers that would add or remove items, or add or remove users, or edit users,
 etc. What these actions are and how the reducer manages the state is customized.
 Thus, the reducer would not be part of the redux library that other developers
-would use to build their application.
+would use to build their application. 
 
 The **createStore()**, method however is generic across Redux applications. It
 always returns a store (given a reducer) that will have a dispatch method and a
